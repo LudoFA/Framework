@@ -1,0 +1,85 @@
+.checkbox input{
+    display: none;
+}
+
+.checkbox .rounded{
+    background-color: #FFF;
+    border: 3px solid #bdc3c7;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 15px;
+    position: relative;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+input:checked + .rounded{
+    border-color: #2ecc71;
+}
+input:checked + .rounded:after{
+    content: '';
+    display: block;
+    width: 6px;
+    height: 6px;
+    background-color: #2ecc71;
+    position: absolute;
+    top: 2px;left: 2px;
+    border-radius: 4px;
+}
+
+.switch{
+    display: inline-block;
+    overflow: hidden;
+    width: 70px;
+    vertical-align: center;
+}
+.switch-container{
+    width: 130px;
+    display: inline-block;
+    margin-left: -60px;
+    transition-duration: 0.3s;
+}
+.switch .on,.switch .off{
+    display: inline-block;
+    position: relative;
+    float: left;
+    background-color: #27ae60;
+    width: 50%;
+    height: 20px;
+    padding: 0;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    z-index: 1;
+}
+.switch .on{
+    border-top-left-radius:20px;
+    border-bottom-left-radius: 20px;
+}
+.switch .off{
+    border-top-right-radius:20px;
+    border-bottom-right-radius: 20px;
+    background-color: #e74c3c;
+}
+.switch .mid{
+    display: inline-block;
+    position: relative;
+    float: left;
+    width: 10px;height: 20px;
+    background-color: #cccccc;
+    border: 2px solid #e74c3c;
+    margin-left: -5px;
+    margin-right: -5px;
+    z-index: 2;
+    transition-duration: 0.3s;
+}
+
+input:checked + .switch-container{
+    margin: 0;
+}
+
+input:checked + .switch-container .mid{
+    border-color: #27ae60 ;
+}

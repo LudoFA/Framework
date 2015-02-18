@@ -1,0 +1,23 @@
+body{
+/*	background-color: #DEDEDE;
+	color: #F00;
+*/
+}
+
+.large-header {
+	background-image: url('../img/demo-2-bg.jpg');
+	background-position: center bottom;
+}
+
+.main-title{
+	font-family: 'Clicker Script', cursive;
+	position: absolute;
+margin: 0;
+padding: 0;
+color: #f9f1e9;
+text-align: center;
+top: 0%;
+left: 0%;
+-webkit-transform: translate3d(-50%,-50%,0);
+transform: translate3d(-50%,-50%,0);
+}

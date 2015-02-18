@@ -1,0 +1,46 @@
+  <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8"> 
+    <title>Layout du projet</title>
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <!-- Bootstrap -->
+        <?php echo $this->css('/css/reset.css'); ?>
+        <?php echo $this->css('/css/grid.css'); ?>
+        <?php echo $this->css('/css/app.css'); ?>
+        <link href="http://fonts.googleapis.com/css?family=Raleway:200,400,800|Clicker+Script" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+
+
+    <header class="ligne topbar" id="topbar">
+        <div class="container">
+            <div class="row">
+                <a class="topbar-logo" href="/"> TETTS</a>
+                <nav class="topbar-menu">
+                    <a href="<?php echo $app->urlFor('root'); ?>">Accueil</a>
+                    <a href="<?php echo $app->urlFor('tutorial_list'); ?>">Tutoriaux</a>
+                    <a href="#">QuickTips</a>
+                    <a href="#">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="ligne" id="presentation">
+        <div class="container">
+            <div class="row">
+                ICI UN TEXTE AVEC ANIMATION POUR EXPLIQUE LE BUT DU SITE
+            </div>
+        </div>
+    </div>
+    <div id="content">
+        <div class="container">
+            <div class="row">
+                <?php echo Core\Message::affFlashMessage() ?>
+                <?php echo $content_for_layout ?>
+            </div>
+        </div>
+    </div>
+	<script src="http://code.jquery.com/jquery.js"></script>
+    </body>
+    </html>

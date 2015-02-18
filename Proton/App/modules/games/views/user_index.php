@@ -1,0 +1,1 @@
+<h2>Dans la page user index</h2>

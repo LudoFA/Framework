@@ -1,0 +1,232 @@
+.icone {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    border-radius: 5px;
+    background: url("../img/icons-24c.png") no-repeat;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.icone:hover {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background: url("../img/icons-24g.png") no-repeat;
+}
+
+.icone.icone-patte {  background-position: 0px 0px; }
+.icone.icone-rose {  background-position: 0px -24px; }
+.icone.icone-plus {  background-position: 0px -48px; }
+.icone.icone-adress {  background-position: 0px -72px; }
+.icone.icone-clock {  background-position: 0px -96px; }
+.icone.icone-pens {  background-position: 0px -120px; }
+.icone.icone-cadre-plus {  background-position: 0px -144px; }
+.icone.icone-cadre-down {  background-position: 0px -168px; }
+.icone.icone-cadre-minus {  background-position: 0px -192px; }
+.icone.icone-cadre-up {  background-position: 0px -216px; }
+
+.icone.icone-cadre {  background-position: -24px 0px; }
+.icone.icone-previous {  background-position: -24px -24px; }
+.icone.icone-download {  background-position: -24px -48px; }
+.icone.icone-down {  background-position: -24px -72px; }
+.icone.icone-upload {  background-position: -24px -96px; }
+.icone.icone-previous1 {  background-position: -24px -120px; }
+.icone.icone-size {  background-position: -24px -144px; }
+.icone.icone-next {  background-position: -24px -168px; }
+.icone.icone-refresh {  background-position: -24px -192px; }
+.icone.icone-refresh1 {  background-position: -24px -216px; }
+
+
+.icone.icone-refresh2 {  background-position: -48px 0px; }
+.icone.icone-next {  background-position: -48px -24px; }
+.icone.icone-direction {  background-position: -48px -48px; }
+.icone.icone-previous2 {  background-position: -48px -72px; }
+.icone.icone-up {  background-position: -48px -96px; }
+.icone.icone-asterix {  background-position: -48px -120px; }
+.icone.icone-arobase {  background-position: -48px -144px; }
+.icone.icone-atome {  background-position: -48px -168px; }
+.icone.icone-first-label {  background-position: -48px -192px; }
+.icone.icone-energy {  background-position: -48px -216px; }
+
+.icone.icone-box-closed {  background-position: -72px 0px; }
+.icone.icone-box-open {  background-position: -72px -24px; }
+.icone.icone-fire {  background-position: -72px -48px; }
+.icone.icone-cross-rounded {  background-position: -72px -72px; }
+.icone.icone-cross {  background-position: -72px -96px; }
+.icone.icone-graph-bar {  background-position: -72px -120px; }
+.icone.icone-graph-hist {  background-position: -72px -144px; }
+.icone.icone-graph-pie {  background-position: -72px -168px; }
+.icone.icone-check-green {  background-position: -72px -192px; }
+.icone.icone-uncheck {  background-position: -72px -216px; }
+
+.icone.icone-check-dark {  background-position: -96px 0px; }
+.icone.icone-tshirt {  background-position: -96px -24px; }
+.icone.icone-cloud-down {  background-position: -96px -48px; }
+.icone.icone-cloud-up {  background-position: -96px -72px; }
+.icone.icone-cloud {  background-position: -96px -96px; }
+.icone.icone-tag {  background-position: -96px -120px; }
+.icone.icone-snow {  background-position: -96px -144px; }
+.icone.icone-rainbow {  background-position: -96px -168px; }
+.icone.icone-bubble {  background-position: -96px -192px; }
+.icone.icone-lock {  background-position: -96px -216px; }
+
+.icone.icone-pig {  background-position: -120px 0px; }
+.icone.icone-money {  background-position: -120px -24px; }
+.icone.icone-basket {  background-position: -120px -48px; }
+.icone.icone-factory {  background-position: -120px -72px; }
+.icone.icone-card {  background-position: -120px -96px; }
+.icone.icone-bulding {  background-position: -120px -120px; }
+.icone.icone-paypal {  background-position: -120px -144px; }
+.icone.icone-label {  background-position: -120px -168px; }
+.icone.icone-barcode {  background-position: -120px -192px; }
+.icone.icone-bag {  background-position: -120px -216px; }
+
+.icone.icone-compress {  background-position: -144px 0px; }
+.icone.icone-gear {  background-position: -144px -24px; }
+.icone.icone-gear2 {  background-position: -144px -48px; }
+.icone.icone-valid-rounded {  background-position: -144px -72px; }
+.icone.icone-last {  background-position: -144px -96px; }
+.icone.icone-pause {  background-position: -144px -120px; }
+.icone.icone-play {  background-position: -144px -144px; }
+.icone.icone-first {  background-position: -144px -168px; }
+.icone.icone-stop {  background-position: -144px -192px; }
+.icone.icone-database {  background-position: -144px -216px; }
+
+.icone.icone-calendar {  background-position: -168px 0px; }
+.icone.icone-cross-orange {  background-position: -168px -24px; }
+.icone.icone-no-way {  background-position: -168px -48px; }
+.icone.icone-mosaique {  background-position: -168px -72px; }
+.icone.icone-column {  background-position: -168px -96px; }
+.icone.icone-3D {  background-position: -168px -120px; }
+.icone.icone-blog {  background-position: -168px -144px; }
+.icone.icone-list {  background-position: -168px -168px; }
+.icone.icone-article {  background-position: -168px -192px; }
+.icone.icone-text {  background-position: -168px -216px; }
+
+.icone.icone-article2 {  background-position: -192px 0px; }
+.icone.icone-table {  background-position: -192px -24px; }
+.icone.icone-organization {  background-position: -192px -48px; }
+.icone.icone-pipette {  background-position: -192px -72px; }
+.icone.icone-letter {  background-position: -192px -96px; }
+.icone.icone-exclaim {  background-position: -192px -120px; }
+.icone.icone-woman {  background-position: -192px -144px; }
+.icone.icone-paper-plus {  background-position: -192px -168px; }
+.icone.icone-paper-stack {  background-position: -192px -192px; }
+.icone.icone-paper-cross {  background-position: -192px -216px; }
+
+.icone.icone-paper-blank {  background-position: -216px 0px; }
+.icone.icone-locker {  background-position: -216px -24px; }
+.icone.icone-flag-blue {  background-position: -216px -48px; }
+.icone.icone-flag-green {  background-position: -216px -72px; }
+.icone.icone-flag-red {  background-position: -216px -96px; }
+.icone.icone-flag-orange {  background-position: -216px -120px; }
+.icone.icone-folder-plus {  background-position: -216px -144px; }
+.icone.icone-folder-cross {  background-position: -216px -168px; }
+.icone.icone-folder {  background-position: -216px -192px; }
+.icone.icone-foot {  background-position: -216px -216px; }
+
+.icone.icone-leaf {  background-position: -240px 0px; }
+.icone.icone-earth {  background-position: -240px -24px; }
+.icone.icone-lifeline {  background-position: -240px -48px; }
+.icone.icone-question {  background-position: -240px -72px; }
+.icone.icone-home {  background-position: -240px -96px; }
+.icone.icone-box-ful {  background-position: -240px -120px; }
+.icone.icone-box-in {  background-position: -240px -144px; }
+.icone.icone-box-out {  background-position: -240px -168px; }
+.icone.icone-box-empty {  background-position: -240px -192px; }
+.icone.icone-information {  background-position: -240px -216px; }
+
+.icone.icone-plus-green {  background-position: -264px 0px; }
+.icone.icone-key {  background-position: -264px -24px; }
+.icone.icone-chemistry {  background-position: -264px -48px; }
+.icone.icone-stack {  background-position: -264px -72px; }
+.icone.icone-leaf2 {  background-position: -264px -96px; }
+.icone.icone-lamp {  background-position: -264px -120px; }
+.icone.icone-heart {  background-position: -264px -144px; }
+.icone.icone-link {  background-position: -264px -168px; }
+.icone.icone-lock2 {  background-position: -264px -192px; }
+.icone.icone-man {  background-position: -264px -216px; }
+
+.icone.icone-marker {  background-position: -288px 0px; }
+.icone.icone-picture-single {  background-position: -288px -24px; }
+.icone.icone-picture-multiple {  background-position: -288px -48px; }
+.icone.icone-music-key {  background-position: -288px -72px; }
+.icone.icone-picture-color {  background-position: -288px -96px; }
+.icone.icone-disc {  background-position: -288px -120px; }
+.icone.icone-note {  background-position: -288px -144px; }
+.icone.icone-clap {  background-position: -288px -168px; }
+.icone.icone-moon {  background-position: -288px -192px; }
+.icone.icone-exclaim2 {  background-position: -288px -216px; }
+
+.icone.icone-circle-cross {  background-position: -312px 0px; }
+.icone.icone-circle-question {  background-position: -312px -24px; }
+.icone.icone-circle-information {  background-position: -312px -48px; }
+.icone.icone-circle-check {  background-position: -312px -72px; }
+.icone.icone-attached {  background-position: -312px -96px; }
+.icone.icone-phone {  background-position: -312px -120px; }
+.icone.icone-puzzle {  background-position: -312px -144px; }
+.icone.icone-outlet {  background-position: -312px -168px; }
+.icone.icone-power {  background-position: -312px -192px; }
+.icone.icone-cine {  background-position: -312px -216px; }
+
+.icone.icone-video-game {  background-position: -336px 0px; }
+.icone.icone-quote {  background-position: -336px -24px; }
+.icone.icone-biohazard {  background-position: -336px -48px; }
+.icone.icone-ecolo {  background-position: -336px -72px; }
+.icone.icone-interdiction {  background-position: -336px -96px; }
+.icone.icone-rocket {  background-position: -336px -120px; }
+.icone.icone-rss {  background-position: -336px -144px; }
+.icone.icone-rss2 {  background-position: -336px -168px; }
+.icone.icone-man-run {  background-position: -336px -192px; }
+.icone.icone-check {  background-position: -336px -216px; }
+
+.icone.icone-search {  background-position: -360px 0px; }
+.icone.icone-equalizer {  background-position: -360px -24px; }
+.icone.icone-resize {  background-position: -360px -48px; }
+.icone.icone-15 {  background-position: -360px -72px; }
+.icone.icone-organization2 {  background-position: -360px -96px; }
+.icone.icone-star-full {  background-position: -360px -120px; }
+.icone.icone-star-empty {  background-position: -360px -144px; }
+.icone.icone-discus-dark {  background-position: -360px -168px; }
+.icone.icone-discus-red {  background-position: -360px -192px; }
+.icone.icone-discus-orange {  background-position: -360px -216px; }
+
+.icone.icone-discus-yellow {  background-position: -384px 0px; }
+.icone.icone-discus-green {  background-position: -384px -24px; }
+.icone.icone-discus-blue {  background-position: -384px -48px; }
+.icone.icone-discus-purple {  background-position: -384px -72px; }
+.icone.icone-discus-rose {  background-position: -384px -96px; }
+.icone.icone-star-light {  background-position: -384px -120px; }
+.icone.icone-other {  background-position: -384px -144px; }
+.icone.icone-lable2 {  background-position: -384px -168px; }
+.icone.icone-target {  background-position: -384px -192px; }
+.icone.icone-tv {  background-position: -384px -216px; }
+
+.icone.icone-temperature {  background-position: -408px 0px; }
+.icone.icone-text {  background-position: -408px -24px; }
+.icone.icone-hour {  background-position: -408px -48px; }
+.icone.icone-tool {  background-position: -408px -72px; }
+.icone.icone-tools {  background-position: -408px -96px; }
+.icone.icone-discussion {  background-position: -408px -120px; }
+.icone.icone-plane {  background-position: -408px -144px; }
+.icone.icone-tree {  background-position: -408px -168px; }
+.icone.icone-umbrella {  background-position: -408px -192px; }
+.icone.icone-unlock {  background-position: -408px -216px; }
+
+.icone.icone-pencil {  background-position: -432px 0px; }
+.icone.icone-user {  background-position: -432px -24px; }
+.icone.icone-users {  background-position: -432px -48px; }
+.icone.icone-user2 {  background-position: -432px -72px; }
+.icone.icone-users2 {  background-position: -432px -96px; }
+.icone.icone-hand-stop {  background-position: -432px -120px; }
+.icone.icone-hand-ok {  background-position: -432px -144px; }
+.icone.icone-card {  background-position: -432px -168px; }
+.icone.icone-list {  background-position: -432px -192px; }
+.icone.icone-man-walk {  background-position: -432px -216px; }
+
+.icone.icone-world {  background-position: -456px 0px; }
+.icone.icone-magic {  background-position: -456px -24px; }
+.icone.icone-ying-yan {  background-position: -456px -48px; }
+.icone.icone-zoom-in {  background-position: -456px -72px; }
+.icone.icone-zoom-out {  background-position: -456px -96px; }
+.icone.icone-empty {  background-position: -456px -120px; }
